@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-06T16:19:22Z" name="Default suite" finished-at="2024-06-06T16:19:42Z" duration-ms="20958">
+  <suite started-at="2024-06-14T11:12:38Z" name="Default suite" finished-at="2024-06-14T11:12:53Z" duration-ms="15174">
     <groups>
     </groups>
-    <test started-at="2024-06-06T16:19:22Z" name="Default test" finished-at="2024-06-06T16:19:42Z" duration-ms="20958">
+    <test started-at="2024-06-14T11:12:38Z" name="Default test" finished-at="2024-06-14T11:12:53Z" duration-ms="15174">
       <class name="demopackage.seleniumtest">
-        <test-method is-config="true" signature="initbrowser()[pri:0, instance:demopackage.seleniumtest@3e6f3f28]" started-at="2024-06-06T16:19:22Z" name="initbrowser" finished-at="2024-06-06T16:19:22Z" duration-ms="53" status="PASS">
+        <test-method is-config="true" signature="initbrowser()[pri:0, instance:demopackage.seleniumtest@3e6f3f28]" started-at="2024-06-14T11:12:38Z" name="initbrowser" finished-at="2024-06-14T11:12:38Z" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initbrowser -->
-        <test-method signature="test1()[pri:0, instance:demopackage.seleniumtest@3e6f3f28]" started-at="2024-06-06T16:19:22Z" name="test1" finished-at="2024-06-06T16:19:39Z" duration-ms="17784" status="PASS">
+        <test-method signature="test1()[pri:0, instance:demopackage.seleniumtest@3e6f3f28]" started-at="2024-06-14T11:12:38Z" name="test1" finished-at="2024-06-14T11:12:52Z" duration-ms="13925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:demopackage.seleniumtest@3e6f3f28]" started-at="2024-06-06T16:19:39Z" name="quit" finished-at="2024-06-06T16:19:42Z" duration-ms="3023" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:demopackage.seleniumtest@3e6f3f28]" started-at="2024-06-14T11:12:52Z" name="quit" finished-at="2024-06-14T11:12:53Z" duration-ms="1126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

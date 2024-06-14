@@ -7,7 +7,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class seleniumtest {
+public class seleniumtest2 {
 	 
 	public static WebDriver driver;
 	public String baseUrl;
@@ -15,15 +15,15 @@ public class seleniumtest {
 	@BeforeClass
 	public void initbrowser()
 	{
-		 System.setProperty("webdriver.chrome.driver", "lib//chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "C://Users//Amit Luthra//demo05//sanjay//lib//chromedriver.exe");
 		 String environment = System.getProperty("env", "dev");
 	        switch (environment.toLowerCase()) {
 	            case "qa":
-	                baseUrl = "https://demo.automationtesting.in/Register.html";
+	                baseUrl = "https://www.google.com/";
 	                break;
 	            case "dev":
 	            default:
-	                baseUrl = "https://demo.automationtesting.in/Register.html";
+	                baseUrl = "https://www.google.com/";
 	                break;
 	        }
 	
@@ -34,8 +34,8 @@ public class seleniumtest {
 	{
 		driver = new ChromeDriver();
 		driver.get(baseUrl);
-		driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Hello Sanjay");
-		
+		//driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Hello Sanjay");
+		System.out.println("test 2");
 		//driver.findElement(By.className("pass")).sendKeys("Hello Sanjay");
 		Thread.sleep(6000);
 		
